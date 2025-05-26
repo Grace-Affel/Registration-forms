@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <script src="forms.js" defer></script>
+    <link rel="stylesheet" href="forms.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="registration-form">
+      <h1>The King's Daughters</h1>
+      <form id="forms">
+        <div id="message"></div> <!-- Message box -->
+        <label for="username">Username<br />
+          <input type="text" id="username" name="username" placeholder="Enter Full Name" required />
+        </label><br />
+
+        <label for="password">Password<br />
+          <input type="password" id="password" name="password" placeholder="Enter Password" required />
+        </label><br />
+
+        <label for="confirm-password">Confirm Password<br />
+          <input type="password" id="confirm-password" name="confirm-password" placeholder="Repeat Password" required />
+        </label><br />
+
+        <label for="dob">Date of Birth<br />
+          <input type="date" id="dob" name="dob" required />
+        </label><br />
+
+        <label for="gender">Gender<br />
+          <select id="gender" name="gender" required>
+            <option value="">--Select--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </label><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
