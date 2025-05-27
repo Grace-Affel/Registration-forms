@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(assets/wp13620457.webp);
+  background-repeat: no-repeat;
+}
+
 
 h1 {
   font-family: "Pacifico", cursive;
