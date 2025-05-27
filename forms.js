@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (password.length < 8) {
       showMessage("Password must be at least 8 characters.", "red");
     } else if (password !== confirmPassword) {
-      showMessage("Passwords do not match.", "red");
+      showMessage("Error", "red");
     } else {
-      showMessage("Registration successful!", "green");
+      showMessage("Success!", "green");
       form.reset();
     }
   });
